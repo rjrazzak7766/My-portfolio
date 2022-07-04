@@ -13,6 +13,7 @@ h1{
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -23,18 +24,23 @@ section {
 .half-width img{
     width: 80%;
 }
-.higher-me-btn{
-    width: 120px;
-    height: 38px;
+ .higher-me-btn{
+    width: 200px;
+    height: 50px;
     border-radius: 5px;
     background-image: linear-gradient(rgba(250, 44, 44, 0.945), tomato );
     font-weight: 700;
-}
-.higher-me-btn a{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
+
 .section1{
     background-image: url(./top-banner.png);
     background-repeat: no-repeat;
+}
+.section2{
+    background-image: url(./dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
